@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bingo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- ///////////////  NAVIGATION SECTION AND BANNER SECTION///////////////// -->
+<header class="nav_bar fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-uppercase fw-bold text-white  ">
+                <img src="./images/logo-white.png" class="logo-white" alt="">
+                <img src="./images/logo.png" class="logo-default" alt="">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#banner_navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center  " id="banner_navbar">
+                <ul class="navbar-nav flex-grow-1  justify-content-end ">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-uppercase active" style="color:rgb(44,144,187) !important;">homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link text-uppercase  text-white">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./services.html" class="nav-link text-uppercase  text-white">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./portfolio.html" class="nav-link text-uppercase  text-white">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pricing.html" class="nav-link text-uppercase  text-white">pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link text-uppercase  text-white">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link text-uppercase  text-white">blog single page</a>
+                    </li>
+                </ul>           
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ............ banner-carousel-section/banner-section............. -->
+
+<section class="carousel_section pb-5">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-1">
+            <!-- <img src="./images/slider-bg-1.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption position-absolute ">
+                <h1 class="text-uppercase text-white  fw-bolder">crafting digital experience</h1>
+                <p class="text-wrap mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum<br> eveniet architecto quis dicta, esse dolor! Iure, impedit? Fugiat, dolores!.</p>
+                <a href="" class="btn btn-primary text-uppercase   ps-5 pe-5 pt-3 pb-3 rounded-pill">explore us</a>
+              </div>
+          </div>
+          <div class="carousel-item bg-2">
+            <!-- <img src="./images/slider-bg-2.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption">
+                <h1 class="text-uppercase text-white  display-6 fw-bolder">we combine design</h1>
+                <p class="text-wrap " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis enim<br> repellat ea iusto deleniti nulla nisi id rem tempore dolorum!.</p>
+                <a href="" class="btn btn-primary text-uppercase   ps-5 pe-5 pt-3 pb-3  rounded-pill">explore us</a>
+              </div>
+          </div>
+          </div>
+        <button class="carousel-control-prev  d-none d-md-block fs-2 text-center" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next d-none d-md-block fs-2 text-center" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+<!-- /....................... what do we offer ........................... -->
+<section class="what-do-we-offer pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12 pb-5 ">
+                <div class="what-do-we-offer-header text-center">
+                    <h2>What Do We Offer</h2>
+                    <p class="text-break text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquid illo<br> sint voluptates sunt ratione dolorem nihil ipsa, quaerat corporis?.</p>
+                    <div class="hr mx-auto "></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="./images/member.jpg" class="img-fluid pe-md-2 pb-4 mx-auto d-block" alt="">
+                </div>
+                <div class="col-lg-8 col-md-8 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12 pb-4 pe-lg-5 pe-md-2  ">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <div class="card-button pb-3 pt-4">
+                                    <button class="btn btn-primary fs-2 p-0 shadow" style="background-color: rgb(40,171,227); border: rgb(40,171,227);">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    </button>
+                                    </div>
+                                  <h3 class="card-title fs-4 ">Time Management</h3>
+                                  <p class="card-text pb-5 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt odio nobis, error sunt nisi cum id officia aut suscipit.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 pb-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <div class="card-button pb-3 pt-4 ">
+                                    <button class="btn btn-primary fs-2 p-0 shadow" style="background-color: rgb(40,171,227); border: rgb(40,171,227);">
+                                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                    </button>
+                                    </div>
+                                  <h3 class="card-title fs-4">Marketing Ideas</h3>
+                                  <p class="card-text pb-5 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt odio nobis, error sunt nisi cum id officia aut suscipit.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 pe-lg-5 pe-md-2 pb-4 ">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <div class="card-button pb-3 pt-4">
+                                    <button class="btn btn-primary fs-2 p-0 shadow" style="background-color: rgb(40,171,227); border: rgb(40,171,227);">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </button>
+                                    </div>
+                                  <h3 class="card-title fs-4">Mail Support</h3>
+                                  <p class="card-text pb-5 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt odio nobis, error sunt nisi cum id officia aut suscipit.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                        <div class="col-lg-6  col-md-6 col-12">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <div class="card-button pb-3 pt-4">
+                                    <button class="btn btn-primary fs-2 p-0 shadow" style="background-color: rgb(40,171,227); border: rgb(40,171,227);">
+                                        <i class="fa fa-lock" aria-hidden="true"></i>
+                                    </button>
+                                    </div>
+                                  <h3 class="card-title fs-4">Secure System</h3>
+                                  <p class="card-text pb-5 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt odio nobis, error sunt nisi cum id officia aut suscipit.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ................... bingo_agency.................................... -->
+
+<section class="bingo_agency pb-5 pt-5" style="background-color: rgb(247,247,247);">
+    <div class="container pt-5">
+        <div class="row ">
+            <div class="col-12 col-lg-12 col-md-12">
+                <div class="bingo_agency_header text-center">
+                <h2>We Are Bingo Agency</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam est velit<br> ducimus incidunt optio facere architecto vero repudiandae cum labore.</p>
+                <div class="hr mx-auto"></div>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="./images/about-2.png"class="img-fluid d-block mx-auto" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="bino_p d-flex">
+                    <span class="pe-3 fs-5" style="color:  rgb(167,151,156);"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem assumenda pariatur debitis soluta omnis quibusdam enim sequi doloribus nobis.</p>
+                </div>
+                    <div class="bino_p d-flex">
+                    <span class="pe-3 fs-5" style="color:  rgb(167,151,156);"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem assumenda pariatur debitis soluta omnis quibusdam enim sequi doloribus nobis.</p>
+                </div>
+                    <div class="bino_p d-flex">
+                    <span class="pe-3 fs-5" style="color:  rgb(167,151,156);"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem assumenda pariatur debitis soluta omnis quibusdam enim sequi doloribus nobis.</p>
+                </div>
+                    <div class="bino_p d-flex">
+                    <span class="pe-3 fs-5" style="color:  rgb(167,151,156);"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem assumenda pariatur debitis soluta omnis quibusdam enim sequi doloribus nobis.</p>
+                </div>
+                    <div class="bino_p d-flex">
+                    <span class="pe-3 fs-5" style="color:  rgb(167,151,156);"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem assumenda pariatur debitis soluta omnis quibusdam enim sequi doloribus nobis.</p>
+                </div>
+                <div class="bingo_button pt-2">
+                    <a href="" class="btn btn-primary p-2 pe-4  ps-4 rounded-pill">Learn More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- ......................  call_to_action................... -->
+
+<section class="call_to_action mb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center"> 
+            <div class="col-lg-8">
+        <div class="call_to_action_header text-center text-white ">
+            <h3>Let's Create Something Together</h3>
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore tempora consectetur minima<br> error eum, dolorum enim tenetur? Facilis, rerum voluptas?</p>
+            <a href="" class="btn btn-primary p-2 pe-4 ps-4 rounded-pill">Contact Us</a>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- ................... award_agency................................ -->
+
+<section class="award_agency mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="award_agency_header text-center">
+                <h3>Award-Winning Agency</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem, repudiandae, rerum alias, recusandae est reiciendis accusantium eveniet assumenda fugit dolorem eaque quae sit? Distinctio ullam et corrupti magnam suscipit?</p>
+            </div>
+            </div>
+            <div class="row pt-2 gy-4">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="happy-clients text-center d-flex justify-content-around">
+                        <div class="happy-clients-text">
+                            <i class="fa fa-clock-o fs-1 pb-2" aria-hidden="true" style="color:rgb(40,171,227) ;"></i>
+                            <h3>150</h3>
+                            <h6 class="text-muted">Happy Clients</h6>
+                        </div>
+                        <div class="vr align-self-center  d-none d-lg-block" style="height: 50px;"></div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="happy-clients text-center d-flex justify-content-around">
+                            <div class="happy-clients-text">
+                                <i class="fa  fa-line-chart fs-1 pb-2" aria-hidden="true" style="color:rgb(40,171,227) ;"></i>
+                                <h3>130</h3>
+                                <h6 class="text-muted">Projects Completed</h6>
+                            </div>
+                            <div class="vr align-self-center  d-none d-lg-block" style="height: 50px;"></div>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-12">
+                            <div class="happy-clients text-center d-flex justify-content-around">
+                                <div class="happy-clients-text">
+                                    <i class="fa fa-comment-o fs-1 pb-2" aria-hidden="true" style="color:rgb(40,171,227) ;"></i>
+                                    <h3>99</h3>
+                                    <h6 class="text-muted">Positive Feedback</h6>
+                                </div>
+                                <div class="vr align-self-center d-none d-lg-block" style="height: 50px;"></div>
+                            </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-12">
+                                <div class="happy-clients text-center d-flex justify-content-lg-start justify-content-around">
+                                    <div class="happy-clients-text ps-lg-5 ">
+                                        <i class="fa fa-bolt fs-1 pb-2" aria-hidden="true" style="color:rgb(40,171,227) ;"></i>
+                                        <h3>250</h3>
+                                        <h6 class="text-muted">Cup of Coffee</h6>
+                                    </div>
+                                    <!-- <div class="vr align-self-center d-none " style="height: 50px;"></div> -->
+                                    
+                                </div>
+                                </div>
+                            </div>
+</section>
+
+
+<!-- .....................company-emp...................... -->
+<section class="company-emp">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            
+        <div class="carousel-inner ">
+          <div class="carousel-item active text-center"  data-bs-interval="3000">
+            <div class="row justify-content-center">
+                
+            <div class="company-emp-text ">
+                <div class="col-lg-12">
+                <i class="fa fa-comments-o display-3 pb-5 pt-5" aria-hidden="true" style="color:white;"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-11 col-11">
+            <p class="text-light " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe sunt minima, accusamus, quo delectus dolores perferendis ipsam odit velit aliquam dolore ea blanditiis a nemo commodi. Enim, rerum eius, dicta repudiandae facere similique error in illum maiores quod aliquid?.</p>
+        </div>
+            </div>
+            </div>
+            </div>
+            <div class="company-emp-img  ">
+                <img src="./images/clients-1.jpg" class="img-fluid" alt="..." style="height: 120px;width: 120px; border-radius:50%">
+                <h3>William Martin</h3>
+                <p>CEO,Company Name</p>
+            </div>
+            </div>
+    
+    
+            <div class="carousel-item  text-center"  data-bs-interval="3000">
+                <div class="row justify-content-center">
+                    
+                <div class="company-emp-text ">
+                    <div class="col-lg-12">
+                    <i class="fa fa-comments-o display-3 pb-5 pt-5" aria-hidden="true" style="color:white;"></i>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-11 col-11">
+                <p class="text-light " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe sunt minima, accusamus, quo delectus dolores perferendis ipsam odit velit aliquam dolore ea blanditiis a nemo commodi. Enim, rerum eius, dicta repudiandae facere similique error in illum maiores quod aliquid?.</p>
+            </div>
+                </div>
+                </div>
+                </div>
+                <div class="company-emp-img  ">
+                    <img src="./images/clients-2.jpg" class="img-fluid" alt="..." style="height: 120px;width: 120px; border-radius:50%">
+                    <h3>William Martin</h3>
+                    <p>CEO,Company Name</p>
+                </div>
+                </div>
+    
+    
+    
+    
+                <div class="carousel-item  text-center"  data-bs-interval="3000">
+                    <div class="row justify-content-center">
+                        
+                    <div class="company-emp-text ">
+                        <div class="col-lg-12">
+                        <i class="fa fa-comments-o display-3 pb-5 pt-5" aria-hidden="true" style="color:white;"></i>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-11 col-11">
+                    <p class="text-light " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe sunt minima, accusamus, quo delectus dolores perferendis ipsam odit velit aliquam dolore ea blanditiis a nemo commodi. Enim, rerum eius, dicta repudiandae facere similique error in illum maiores quod aliquid?.</p>
+                </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="company-emp-img  ">
+                        <img src="./images/clients-3.jpg" class="img-fluid" alt="..." style="height: 120px;width: 120px; border-radius:50%">
+                        <h3>William Martin</h3>
+                        <p>CEO,Company Name</p>
+                    </div>
+                    </div>
+    
+    
+    
+    
+            </div>
+           
+          </div>
+    
+        </section>
+
+<!-- ...............  latest-posts  ............................. -->
+
+<section class="latest-post">
+    <div class="container">
+    <div class="row justify-content-center latest-post-row">
+        <div class="col-lg-6 pt-5">
+            <div class="latest-post-header text-center">
+                <h2 class="pb-2 pt-5">Latest Posts</h2>
+                <div class="hr mx-auto mb-3"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat dolores deleniti nobis harum aspernatur quia neque optio! Unde, praesentium..</p>
+            </div>
+        </div>
+
+        <div class="row gy-4 card-row">
+            
+            <div class="col-lg-4 col-md-6 col-12 ">
+                <div class="card shadow ">
+                    <img src="./images/post-1.jpg" class="card-img-top img-fluid"  alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Reasons To Smile</h2>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rem mollitia nobis quidem recusandae optio minus laudantium corrupti necessitatibus officiis? Quisquam, illo? Beatae quae hic laudantium laborum modi illo vel!.</p>
+                      <a href="#" class="btn btn-primary text-uppercase rounded-pill pt-2 pb-2 pe-4 ps-4 font-monospace">Read more</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card shadow">
+                        <img src="./images/post-2.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h2 class="card-title">A Few Moments</h2>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rem mollitia nobis quidem recusandae optio minus laudantium corrupti necessitatibus officiis? Quisquam, illo? Beatae quae hic laudantium laborum modi illo vel!.</p>
+                          <a href="#" class="btn btn-primary text-uppercase rounded-pill pt-2 pb-2 pe-4 ps-4 font-monospace">Read more</a>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card shadow">
+                        <img src="./images/post-3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h3 class="card-title">Hints For Life </h3>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rem mollitia nobis quidem recusandae optio minus laudantium corrupti necessitatibus officiis? Quisquam, illo? Beatae quae hic laudantium laborum modi illo vel!.</p>
+                          <a href="#" class="btn btn-primary text-uppercase rounded-pill pt-2 pb-2 pe-4 ps-4 font-monospace">Read more</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ................... footer........................... -->
+
+<section class="footer">
+    <div class="container">
+        <div class="row gy-5">
+            <div class="col-lg-3 col-md-6 pt-5">
+                <h6 class="text-uppercase ps-lg-2">
+                    about
+                </h6>
+                <p class="pt-3 ps-lg-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus excepturi fugit quod necessitatibus! Voluptatibus, placeat?</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 pt-5 ps-lg-5">
+                <h6 class="text-uppercase ps-lg-2">
+                    our services
+                </h6>
+                <ul class="pt-3 ps-lg-2 ps-0">
+                    <li>
+                        <a  href="">Ui/Ux Design</a>
+                    </li>
+                    <li>
+                        <a href="">Graphic Design</a>
+                    </li>
+                    <li>
+                        <a href="">Web Design</a>
+                    </li>
+                    <li>
+                        <a href="">Web Development</a>
+                    </li>
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 pt-5 ps-lg-3">
+                <h6 class="text-uppercase">
+                    quick links
+                </h6>
+                <ul class="pt-3 ps-0">
+                    <li>
+                        <a  href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#">404</a>
+                    </li>
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 pt-5">
+                <h6 class="text-uppercase">
+                    connect with us socially
+                </h6>
+                <ul class="pt-3 ps-0">
+                    <li>
+                        <a  href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="#">Github</a>
+                    </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ........ copyright................. -->
+<section class="copyright">
+    <div class="container-fluid">
+        <div class="copyright-text text-center pt-5 pb-4">
+            <h6 class="text-muted fw-normal fs-6">© COPYRIGHT 2020. ALL RIGHTS RESERVED.</h6>
+            <p class="text-muted">Design And Developed By <a href="" > Themefisher</a></p>
+        </div>
+    </div>
+</section>
+
+
+   <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

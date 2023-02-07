@@ -1,0 +1,860 @@
+
+ *{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0px;
+    padding: 0px; */
+
+ }
+
+
+.btn-primary{
+        background-color:rgb(40,171,227)  !important;
+        border-color:rgb(40,171,227)  !important;
+
+}
+
+.btn-primary:hover{
+    background-color:rgb(40,171,227)  !important;
+
+}
+.nav_bar{
+    background-color: rgba(0,0,0,0.5);
+}
+.nav_bar .nav-link {
+    color: #fff !important;
+    font-size: 14px !important;
+    line-height: 26px !important;
+    padding: 20px 15px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    transition: .2s ease-in-out 0s;
+}
+.nav_bar .nav-link:hover{
+    color:rgb(44,144,187) !important ;
+}
+.nav_bar .logo-default {
+    display: none;
+}
+.nav_bar .navbar-toggler:focus:not(:focus-visible) {
+   
+    outline: 5px auto -webkit-focus-ring-color !important;
+    box-shadow: none !important;
+}
+@media (max-width: 991px){
+.nav_bar .logo-default {
+    display: block;
+}
+.nav_bar .navbar{
+    background-color: #fff;
+} 
+.nav_bar .logo-white{
+    display:none;
+}
+.nav_bar .nav-link {
+    color: black !important;
+    font-size: 14px !important;
+    line-height: 26px !important;
+    padding: 10px 15px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    transition: .2s ease-in-out 0s;
+}
+}
+
+
+
+/*......banner-carousel-section/banner-section..........  */
+.carousel_section .bg-1{
+    /* height: 100vh; */
+    height: 100dvh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/slider-bg-1.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel_section .bg-2{
+    /* height: 100vh; */
+    padding-bottom: 30px;
+    height: 100dvh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/slider-bg-2.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel_section .btn{
+    background-color: rgb(40,171,227) !important;
+}
+.carousel_section .carousel-caption{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 60%;
+   transform: translateY(-60%);
+
+}
+@media (min-width:320px) and (max-width:728px){
+
+    .carousel_section .carousel-caption{
+        position:absolute;
+        left: 0;
+   right: 0;
+        top:20%;
+        transform: translateY(0%);
+
+}
+}
+
+
+.carousel_section .carousel-control-prev {
+    left: 0px;
+    top: 50%;
+    transform: translate(0%);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:rgba(40,171,227);
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.carousel_section .carousel-control-next {
+    right: 0px;
+    top: 50%;
+    transform: translate(0%);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:rgb(40,171,227);
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.carousel_section .carousel:hover .carousel-control-prev{
+    transform: translateX(20px);
+
+    visibility: visible;
+}
+.carousel_section .carousel:hover .carousel-control-next{
+    transform: translateX(-20px);
+    visibility: visible;
+}
+.carousel_section .btn-primary{
+    font-size: 12px;
+}
+
+
+/* ............. what do we offfer............. */
+
+.what-do-we-offer .hr{
+width: 100px;
+background-color: rgb(226,230,233);
+height: 2px;
+}
+.what-do-we-offer .btn{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.what-do-we-offer .card{
+    transition: all 0.3s;
+}
+.what-do-we-offer .card:hover .btn{
+    color: rgb(40,171,227) !important ;
+background-color: #ffffff !important;
+}
+.what-do-we-offer .card:hover{
+    /* box-shadow: 0px 0px 20px #eee; */
+    box-shadow: 0 0 100px rgb(0 0 0 / 15%);
+    
+}
+
+.what-do-we-offer .row{
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0;
+}
+
+
+/* ..............bingo agency.................... */
+
+.bingo_agency .hr{
+    width: 100px;
+    background-color: rgb(226,230,233);
+    height: 2px;
+    }
+
+    .bingo_agency p{
+        color: rgb(167,151,156);
+    }
+    
+
+    /* ..........call_to_action.................. */
+
+    .call_to_action{
+        /* height: 40vh; */
+        background-image: url(./images/call-to-action-bg-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px 0px;
+
+    }
+
+    
+    /* ................ award_agency........ */
+
+/* ............company-emp....................... */
+
+.company-emp{
+    padding-top: 50px;
+}
+
+
+ .company-emp .company-emp-text{
+    background-color: rgb(40,171,227);
+    padding: 0px 0px 90px 0px;
+    /* height: 400px; */
+    /* width: 100%; */
+}
+
+
+ .company-emp  .company-emp-img{
+    transform: translateY(-50px);
+    /* transform: translateX(30px); */
+    padding-left: 30px;
+}
+
+/* ..........latest-posts  ................. */
+
+
+.latest-post{
+    background-color: rgb(246,246,246);
+    padding: 0px 0px 140px 0px;
+}
+.latest-post .card{
+    border: #fff;
+}
+/* .latest-post .row{
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0;
+
+} */
+.latest-post .hr{
+    width: 100px;
+    background-color: rgba(40,171,227);
+    height: 1px;
+    }
+   
+    .latest-post img{
+        height: 300px;
+        width: 100%;
+    }
+    @media (max-width:428px){
+
+
+        .latest-post img{
+            height: 198px;
+            width: 100%;
+        }
+
+    }
+
+
+
+    /* ........  footer............. */
+
+.footer{
+    background-color: rgb(34,34,34);
+    padding-bottom: 50px;
+}
+
+    .footer h6{
+        color: #fff;
+    }
+
+    .footer p{
+        font-size: 13px;
+        color: gray;
+    }
+    .footer a{
+        text-decoration: none;
+        color: gray;
+        font-size: 13px;
+        transition: all 0.3s;
+        
+    }
+    .footer li{
+        list-style: none;
+    }
+    .footer .row {
+        --bs-gutter-x: 0rem !important;
+        --bs-gutter-y: 0;
+    }
+    .footer a:hover{
+        color: rgba(40,171,227) ;
+    }
+
+
+    /* ...... copyright............. */
+    .copyright{
+        background-color: rgb(27,27,27);
+    }
+
+    .copyright a{
+        color:rgba(40,171,227) ;
+        text-decoration: none;
+    }
+    .copyright a:hover{
+        color:rgba(40,171,227) ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////  about us ///////// */
+
+
+
+/* ...... about-us-banner............ */
+
+.about-us-banner{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/about-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 50vh;
+    width: 100%; */
+    padding: 0px 0px 400px 0px;
+}
+.about-us-banner .about-us-header{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+
+/* ...........tech......... */
+.tech{
+    padding: 0px 0px 100px 0px;
+}
+.tech li{
+    list-style: none;
+    padding: 0px 0px 20px 0px;
+}
+
+
+
+
+/* .......company mission........ */
+
+.company-mission{
+    background-color: rgb(249,249,249);
+    padding: 0px 0px 100px 0px ;
+}
+
+
+
+/* ..........promo-video......... */
+
+.promo-video{
+    padding: 0px 0px 100px 0px ;
+}
+
+
+.promo-video .hr{
+    width: 100px;
+    background-color: rgba(40,171,227);
+    height: 1px;
+    }
+
+
+
+
+    /* .....call_bg...... */
+.call_bg{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/call-to-action-bg.jpg);
+    padding: 100px 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.call_bg h1{
+    font-weight: 300;
+}
+
+
+
+
+    /* .... sneak-peak-gallery.... */
+.sneak{
+    padding: 100px 0px 100px 0px ;
+}
+
+    .sneak .hr{
+        width: 100px;
+        background-color: rgba(40,171,227);
+        height: 1px;
+        }
+
+        .sneak .row-cols-lg-5{
+            --bs-gutter-x: 0rem !important;
+        }
+
+
+
+        /* ..... our team..... */
+
+        .team{
+            padding: 0px 0px 100px 0px;
+        }
+
+        .team li{
+            list-style-type: none;
+            padding: 10px 10px ;
+        }
+
+        .team .btn-light{
+            color: #fff;
+            background-color: transparent;
+        }
+
+        .team .card-image{
+            position: relative;
+            overflow: hidden;
+        }
+        .team ul{
+            padding-left: 5.4rem;
+        }
+        .team span{
+            font-size: 12px;
+        }
+
+        .overlay{
+            background-color:  rgba(40,171,227,0.8) ;
+            opacity:0;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 0;
+            transition: all 0.5s ease;
+            
+        }
+        .team .card-image:hover .overlay{
+            height: 77px;
+            opacity: 1;
+        }
+
+        .team img{
+            transition: all 0.5s ease;
+        }
+        
+       .team .card-image:hover img{
+            transform: scale(1.1);
+        }
+
+            
+            
+
+
+
+
+
+        /* /////// Our services ///////// */
+
+
+        /* ....... services..... */
+
+        .services{
+            padding: 0px 0px 100px 0px;
+        }
+
+        .services .hr{
+            width: 100px;
+            background-color: rgba(40,171,227);
+            height: 1px;
+            }
+            .services .services-text{
+                padding: 50px 0px 40px 0px ;
+            }
+            .services i{
+                font-size: 5rem;
+            }
+
+
+            /* ..... skills ...... */
+
+            .skills{
+                padding: 0px 0px 100px 0px ;
+            }
+            .skills .hr{
+                width: 100px;
+                background-color: rgba(40,171,227);
+                height: 1px;
+                }
+
+                .skills .simple-text{
+                    padding: 50px 0px 50px 0px;
+                }
+
+
+
+
+
+
+
+
+
+/* ////////////// */
+
+
+.portfolio-work .hr{
+    height: 1px;
+    width: 100px;
+    background-color: grey;
+}
+.portfolio-work .btn{
+    font-size: 13px;
+    background-color: rgb(40,171,227);
+    border-color: rgb(40,171,227);
+}
+.portfolio-work .btn:hover{
+    background-color: rgb(40,171,227) !important;
+    border-color: rgb(40,171,227) !important;
+}
+
+ 
+.port-img-1:before {
+    transition: all 0.3s ease-in-out;
+    background: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: '';
+}
+.port-img-1:hover:before{
+    opacity: 1;
+
+}
+.port-img-1 .port-btn{
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    top: 50%;
+    transform: translateY(-38px);
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+.port-img-1:hover .port-btn{
+    opacity: 1;
+}
+
+
+
+
+
+ .portfolio-work .btn-primary:focus {
+    color:#fff !important ;
+    background-color: rgb(40,171,227) !important;
+    border-color: rgb(40,171,227)e !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.portfolio-work .btn:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.portfolio-work .btn-primary.active {
+    color: #fff;
+    background-color:  rgb(40,171,227) !important;
+    border-color:  rgb(40,171,227) !important;
+}
+
+.portfolio-work .carousel-control-next {
+    position: absolute;
+    height: 466px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: all 0.1s ease !important;
+    
+}
+.portfolio-work .carousel-control-prev {
+    position: absolute;
+    height: 466px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: all 0.1s ease!important;
+    
+}
+
+.portfolio-work  .carousel-control-next:hover{
+    /* visibility:visible; */
+    opacity: 1;
+    
+} 
+ .portfolio-work  .carousel-control-prev:hover{
+    /* visibility:visible; */
+    opacity: 1;
+} 
+@media  (max-width:428px){
+
+    .portfolio-work .carousel-control-next {
+        position: absolute;
+        transform: translateY(-81px);
+      
+    }
+    .portfolio-work .carousel-control-prev {
+        position: absolute;
+        transform: translateY(-81px);
+      
+    }
+
+}
+
+
+
+.portfolio-work .footer1 .btn:hover{
+    background-color: #fff !important;
+    border:1px solid  #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////pricing//////// */
+
+
+
+/* ...........plans................. */
+.plans{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/pricing-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0px 60px 0px;
+}
+
+.plans .hr{
+    width: 100px;
+    background-color:rgb(222,226,230);
+    height: 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* //////// contact///////////// */
+
+/* ..........touch......... */
+
+.touch{
+    padding: 60px 0px 60px 0px;
+}
+
+.touch .hr{
+    width: 100px;
+    background-color:rgba(40,171,227);
+    height: 1px;
+    }
+
+    .touch li{
+        list-style-type: none;
+        
+    }
+
+    .touch .btn-light{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border-color: gray;
+        transition: all 0.3s ;
+
+    }
+    .touch .btn-light:hover{
+        color:white !important;
+        background-color:rgba(40,171,227) ;
+        border-color:rgba(40,171,227) ;
+
+    }
+    .touch .form-control{
+        transition: all 0.2s;
+    }
+
+    .touch .form-control:focus {
+        box-shadow: none !important;
+        border-color: none !important;
+    }
+    .touch .form-control:hover{
+        border-color:rgba(40,171,227) ;
+    }
+
+    /* .........map........ */
+    .map{
+        padding: 60px 0px ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ////////// blog////////// */
+
+
+    .blog{
+        padding: 60px 0px;
+    }
+
+
+
+
+     .blog-flex .tr{
+
+            width: 9px;
+            background-color:rgba(40,171,227);
+            height:177px;
+            /* padding: 20px 0px; */
+        
+    }
+
+    .blog .blog-flex{
+        background-color: rgb(238,238,238);
+        /* padding: 20px  0px; */
+    }
+    
+
+    .social-media a{
+        border-color: gray;
+        transition:all 0.3s;
+
+    }
+    .social-media a:hover{
+        background-color:rgba(40,171,227) ;
+        color: #fff !important;
+        border:1px solid rgba(40,171,227);
+    }
+    .blog .btn-light{
+        border-color: gray;
+        transition:all 0.3s;
+
+    }
+    .blog .btn-light:hover{
+        background-color:rgba(40,171,227) ;
+        color: #fff !important;
+        border:1px solid rgba(40,171,227);
+    }
+
+    
+.comment-received{
+    border-bottom: 1px solid grey;
+}
+
+
+    
+.blog .form-control{
+    transition: all 0.2s;
+}
+
+.blog .form-control:focus {
+    box-shadow: none !important;
+    border-color: none !important;
+}
+.blog .form-control:hover{
+    border-color:rgba(40,171,227) ;
+    /* border-bottom-color: red; */
+}
+   
+
+.blog .input-group-text{
+    background-color:rgba(40,171,227) ;
+    color: #fff;
+}
+
+.blog li{
+
+    list-style-type: none;
+    border-bottom:1px solid gray!important;
+    
+}
+.blog-ul li:hover{
+    /* transform: translateX(30px); */
+    background-color: rgba(40,171,227);
+}
+.blog-ul  p{
+    transition: all 0.3s ease;
+
+}
+
+.blog-ul li:hover p{
+    transform: translateX(20px);
+    color: #fff;
+}
+
+.latest_post_right h6{
+    transition: all 0.3s ease;
+
+}
+.latest_post_right h6:hover{
+    color:rgba(40,171,227) ;
+
+}
+.blog .btn-light:focus {
+    color: rgb(0, 0, 0);
+    background-color: none;
+    border-color: none;
+    box-shadow:  0px 0px 0px 0rem;
+}
+
+ .blog .btn:focus {
+    outline: 0px;
+    box-shadow: 0px 0px 0px 0rem;
+}
